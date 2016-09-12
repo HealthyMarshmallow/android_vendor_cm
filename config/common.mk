@@ -133,7 +133,8 @@ endif
 
 # APP REMOVAL SCRIPT
 PRODUCT_COPY_FILES += \
-   vendor/cm/prebuilt/common/addon.d/60-removal.sh:system/addon.d/60-removal.sh
+   vendor/cm/prebuilt/common/addon.d/60-removal.sh:system/addon.d/60-removal.sh \
+   vendor/cm/prebuilt/common/addon.d/98-temasek.sh:system/addon.d/98-temasek.sh
 
 # This is CM!
 PRODUCT_COPY_FILES += \
