@@ -11,7 +11,6 @@ list_files() {
 cat <<EOF
 priv-app/com.asksven.betterbatterystats_xdaedition.apk
 priv-app/com.asksven.betterbatterystats_signed.apk
-app/WebViewGoogle/WebViewGoogle.apk
 EOF
 }
 
