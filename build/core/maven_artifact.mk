@@ -46,6 +46,9 @@ $(LOCAL_PREBUILT_MODULE_FILE):
 		-Dmdep.prependGroupId=true \
 		-Dmdep.overWriteSnapshots=true \
 		-Dmdep.overWriteReleases=true \
+		-Dmaven.wagon.http.ssl.insecure=true \
+		-Dmaven.wagon.http.ssl.allowall=true \
+		-Djavax.net.ssl.trustStore=/usr/java/jdk1.7.0_71/jre/lib/security/cacerts \
 		-Dtransitive=false \
 		-DoutputDirectory=$(dir $@)
 	@echo -e ${CL_GRN}"Download:"${CL_RST}" $@"
