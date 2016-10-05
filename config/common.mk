@@ -127,14 +127,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
 
-ifneq ($(TARGET_ARCH),arm64)
+#ifneq ($(TARGET_ARCH),arm64)
 # Viper4Android
-PRODUCT_COPY_FILES += \
-   vendor/cm/prebuilt/common/bin/audio_policy.sh:system/audio_policy.sh \
-   vendor/cm/prebuilt/common/addon.d/95-LolliViPER.sh:system/addon.d/95-LolliViPER.sh \
-   vendor/cm/prebuilt/common/su.d/50viper.sh:system/su.d/50viper.sh \
-   vendor/cm/prebuilt/common/app/Viper4Android/Viper4Android.apk:system/priv-app/Viper4Android/Viper4Android.apk
-endif
+#PRODUCT_COPY_FILES += \
+#   vendor/cm/prebuilt/common/bin/audio_policy.sh:system/audio_policy.sh \
+#   vendor/cm/prebuilt/common/addon.d/95-LolliViPER.sh:system/addon.d/95-LolliViPER.sh \
+#   vendor/cm/prebuilt/common/su.d/50viper.sh:system/su.d/50viper.sh \
+#   vendor/cm/prebuilt/common/app/Viper4Android/Viper4Android.apk:system/priv-app/Viper4Android/Viper4Android.apk
+#endif
 
 # APP REMOVAL SCRIPT
 PRODUCT_COPY_FILES += \
