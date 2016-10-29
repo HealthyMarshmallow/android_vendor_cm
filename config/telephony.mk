@@ -5,7 +5,8 @@ PRODUCT_COPY_FILES += \
 # Telephony packages
 PRODUCT_PACKAGES += \
     messaging \
-    Stk
+    Stk \
+    CellBroadcastReceiver
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
